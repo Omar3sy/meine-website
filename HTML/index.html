@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Website mit Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Eigenes CSS -->
+    <!--link rel="stylesheet" href="css/styles.css">
+</head>
+...
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-warning bg-danger fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="5339181.png" alt="Logo" height="30" class="d-inline-block align-top">
+                Rania Website
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Überuns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">KONTAKT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-4">
+        <!-- Bootstrap Card -->
+        <div class="card shadow my-4">
+            <img src="arabic-calligraphy-name-translated-rania-arabic-letters-alphabet-font-lettering-islamic-logo-illustration-vector.jpg" class="card-img-top" alt="Motor-Bild" style="height: 550px; object-fit: cover;">
+            <div class="card-body bg-primary">
+                <h1 class="card-title">هذه الفتاه المسكينه</h1>
+                <p class="card-text">         
+                    هذه الفتاه التي لا تتكلم على احد ولا تحب النميمه ولا الضحك انها فتاه رائعه همها المكياج و البراكتيكوم في الوفت الحالي       </p>
+            </div>
+        </div>
+
+        <!-- Kontakt-Sektion -->
+        <section id="kontakt" class="my-5">
+            <h2>Kontakt</h2>
+            <ul class="list-group">
+                <li class="list-group-item">E-mail: Raniaalhamed@gmail.com</li>
+                <li class="list-group-item">Telefon: +49 1837362517</li>
+            </ul>
+        </section>
+
+        <!-- 3-Spaltiger Inhalt -->
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4 text-danger">
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+                </p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <p>
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+                </p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <p>
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-success text-white py-3 mt-4">
+        <div class="container text-center">
+            <p class="mb-0">© OMAR GMBH | Frankfurter ST 44a, 36041 Fulda</p>
+        </div>
+    </footer>
+
+</body>
+</html>

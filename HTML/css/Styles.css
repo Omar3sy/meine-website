@@ -1,0 +1,66 @@
+/* ID-Selektor für Header */
+#Hauptheader {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Klassenselektor für Navigation */
+  .Menu {
+    background-color: #e0e0e0;
+    width: 200px;
+    float: left;
+    height: 100%;
+    min-height: 100vh;
+  }
+  
+  /* Kontextsensitiver Selektor für Links im Menü */
+  .Menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Menu ul li {
+    padding: 10px;
+  }
+  
+  .Menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .Menu ul li a:hover {
+    color: darkblue;
+  }
+  
+  /* Inhaltsbereich (rechter Teil) */
+  .INHALT {
+    margin-left: 210px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Kontaktbereich gleich wie INHALT */
+  #kontakt {
+    margin-left: 210px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 2px solid #ccc;
+  }
+  
+  #kontakt h2 {
+    margin-top: 0;
+  }
+  
+  /* Footer */
+  footer {
+    clear: both;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
